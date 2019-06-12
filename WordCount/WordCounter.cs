@@ -5,40 +5,39 @@ using System.Text;
 
 namespace WordCount
 {
-    class WordCounter
+    public class WordCounter
     {
-        private List<CountLine> list;
-        private string entry;
-        private string returnString;
 
-        public WordCounter(string entry)
+        public WordCounter()
         {
-            this.list = new List<CountLine>();
-            this.entry = entry;
         }
 
-        internal string calculate()
+        public string calculate(string entry)
         {
-            foreach (string word in entry.Split())
+
+            List<CountLine> list = new List<CountLine>();
+
+            foreach (string word in entry.Replace(".", "").Replace(",", "").Split())
             {
-                //Console.WriteLine(word);
+
                 if (list.Exists(line => line.Word.ToString() == word))
                 {
-                    this.list.Where(line => line.Word.ToString() == word).ToList().ForEach(line => line.Count++);
+                    list.Where(line => line.Word.ToString() == word).ToList().ForEach(line => line.Count++);
                 }
                 else
                 {
-                    this.list.Add(new CountLine { Word = word, Count = 1 });
+                    list.Add(new CountLine { Word = word, Count = 1 });
                 }
             }
 
-            Console.Write("List:");
+            string returnString = "";
+
             foreach (CountLine line in list)
              {
-                returnString = returnString + " " + line;
+                returnString = returnString + ", " + line;
             };
 
-            return returnString;
+            return "List:" + returnString;
         }
     }
 }

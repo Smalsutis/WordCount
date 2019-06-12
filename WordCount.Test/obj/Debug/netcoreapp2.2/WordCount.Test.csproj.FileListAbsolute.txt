@@ -1,0 +1,17 @@
+C:\Users\Aruna\OneDrive\Desktop\Arūnėlis\Projects\WordCount\WordCount.Test\bin\Debug\netcoreapp2.2\xunit.runner.visualstudio.dotnetcore.testadapter.dll
+C:\Users\Aruna\OneDrive\Desktop\Arūnėlis\Projects\WordCount\WordCount.Test\bin\Debug\netcoreapp2.2\xunit.runner.reporters.netcoreapp10.dll
+C:\Users\Aruna\OneDrive\Desktop\Arūnėlis\Projects\WordCount\WordCount.Test\bin\Debug\netcoreapp2.2\xunit.runner.utility.netcoreapp10.dll
+C:\Users\Aruna\OneDrive\Desktop\Arūnėlis\Projects\WordCount\WordCount.Test\bin\Debug\netcoreapp2.2\WordCount.Test.deps.json
+C:\Users\Aruna\OneDrive\Desktop\Arūnėlis\Projects\WordCount\WordCount.Test\bin\Debug\netcoreapp2.2\WordCount.Test.runtimeconfig.json
+C:\Users\Aruna\OneDrive\Desktop\Arūnėlis\Projects\WordCount\WordCount.Test\bin\Debug\netcoreapp2.2\WordCount.Test.runtimeconfig.dev.json
+C:\Users\Aruna\OneDrive\Desktop\Arūnėlis\Projects\WordCount\WordCount.Test\bin\Debug\netcoreapp2.2\WordCount.Test.dll
+C:\Users\Aruna\OneDrive\Desktop\Arūnėlis\Projects\WordCount\WordCount.Test\bin\Debug\netcoreapp2.2\WordCount.Test.pdb
+C:\Users\Aruna\OneDrive\Desktop\Arūnėlis\Projects\WordCount\WordCount.Test\bin\Debug\netcoreapp2.2\WordCount.dll
+C:\Users\Aruna\OneDrive\Desktop\Arūnėlis\Projects\WordCount\WordCount.Test\bin\Debug\netcoreapp2.2\WordCount.pdb
+C:\Users\Aruna\OneDrive\Desktop\Arūnėlis\Projects\WordCount\WordCount.Test\obj\Debug\netcoreapp2.2\WordCount.Test.csprojAssemblyReference.cache
+C:\Users\Aruna\OneDrive\Desktop\Arūnėlis\Projects\WordCount\WordCount.Test\obj\Debug\netcoreapp2.2\WordCount.Test.csproj.CoreCompileInputs.cache
+C:\Users\Aruna\OneDrive\Desktop\Arūnėlis\Projects\WordCount\WordCount.Test\obj\Debug\netcoreapp2.2\WordCount.Test.AssemblyInfoInputs.cache
+C:\Users\Aruna\OneDrive\Desktop\Arūnėlis\Projects\WordCount\WordCount.Test\obj\Debug\netcoreapp2.2\WordCount.Test.AssemblyInfo.cs
+C:\Users\Aruna\OneDrive\Desktop\Arūnėlis\Projects\WordCount\WordCount.Test\obj\Debug\netcoreapp2.2\WordCount.Test.csproj.CopyComplete
+C:\Users\Aruna\OneDrive\Desktop\Arūnėlis\Projects\WordCount\WordCount.Test\obj\Debug\netcoreapp2.2\WordCount.Test.dll
+C:\Users\Aruna\OneDrive\Desktop\Arūnėlis\Projects\WordCount\WordCount.Test\obj\Debug\netcoreapp2.2\WordCount.Test.pdb

@@ -7,39 +7,37 @@ namespace WordCount
 {
     public class LengthCounter
     {
-        private string entry;
-        private List<CountLine> list;
-        private string returnString;
-
-
-        public LengthCounter(string entry)
+        public LengthCounter()
         {
-            this.entry = entry;
-            this.list = new List<CountLine>();       
+       
         }
 
-        internal string calculate()
+        public string calculate(string entry)
         {
-            foreach (string word in entry.Split())
+
+            List<CountLine> list = new List<CountLine>();
+
+            foreach (string word in entry.Replace(".","").Replace(",", "").Split())
             {
                 //Console.WriteLine(word);
                 if (list.Exists(line => (int)line.Word == word.Length))
                 {
-                    this.list.Where(line => (int)line.Word == word.Length).ToList().ForEach(line => line.Count++);
+                    list.Where(line => (int)line.Word == word.Length).ToList().ForEach(line => line.Count++);
                 }
                 else
                 {
-                    this.list.Add(new CountLine { Word = word.Length, Count = 1 });
+                    list.Add(new CountLine { Word = word.Length, Count = 1 });
                 }
             }
 
-            Console.Write("List:");
+            string returnString = "";
+
             foreach (CountLine line in list)
             {
-                returnString = returnString + " " + line;
+                returnString = returnString + ", " + line;
             };
 
-            return returnString;
+            return "List:" + returnString;
         }
 
     }
