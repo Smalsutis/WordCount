@@ -5,16 +5,22 @@ using System.Text;
 
 namespace WordCount
 {
-    class LegthCounter
+    public class LengthCounter
     {
-        List<CountLine> list;
+        private string entry;
+        private List<CountLine> list;
+        private string returnString;
 
 
-        public LegthCounter(string[] entry)
+        public LengthCounter(string entry)
         {
-            this.list = new List<CountLine>();
+            this.entry = entry;
+            this.list = new List<CountLine>();       
+        }
 
-            foreach (string word in entry)
+        internal string calculate()
+        {
+            foreach (string word in entry.Split())
             {
                 //Console.WriteLine(word);
                 if (list.Exists(line => (int)line.Word == word.Length))
@@ -26,16 +32,14 @@ namespace WordCount
                     this.list.Add(new CountLine { Word = word.Length, Count = 1 });
                 }
             }
-        }
 
-        internal void print()
-        {
             Console.Write("List:");
             foreach (CountLine line in list)
             {
-                Console.Write(" " + line);
+                returnString = returnString + " " + line;
             };
-            Console.WriteLine();
+
+            return returnString;
         }
 
     }

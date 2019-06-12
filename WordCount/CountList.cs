@@ -20,5 +20,10 @@ namespace WordCount
             if (other == null) return false;
             return (this.Count.Equals(other.Count));
         }
+
+        public static implicit operator CountLine(string v)
+        {
+            throw new NotImplementedException();
+        }
     }
 }

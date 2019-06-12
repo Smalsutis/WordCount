@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Aruna\\source\\repos\\WordCount\\WordCount.csproj": {}
+    "C:\\Users\\Aruna\\OneDrive\\Desktop\\Arūnėlis\\Projects\\WordCount\\WordCount\\WordCount.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Aruna\\source\\repos\\WordCount\\WordCount.csproj": {
+    "C:\\Users\\Aruna\\OneDrive\\Desktop\\Arūnėlis\\Projects\\WordCount\\WordCount\\WordCount.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Aruna\\source\\repos\\WordCount\\WordCount.csproj",
+        "projectUniqueName": "C:\\Users\\Aruna\\OneDrive\\Desktop\\Arūnėlis\\Projects\\WordCount\\WordCount\\WordCount.csproj",
         "projectName": "WordCount",
-        "projectPath": "C:\\Users\\Aruna\\source\\repos\\WordCount\\WordCount.csproj",
+        "projectPath": "C:\\Users\\Aruna\\OneDrive\\Desktop\\Arūnėlis\\Projects\\WordCount\\WordCount\\WordCount.csproj",
         "packagesPath": "C:\\Users\\Aruna\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Aruna\\source\\repos\\WordCount\\obj\\",
+        "outputPath": "C:\\Users\\Aruna\\OneDrive\\Desktop\\Arūnėlis\\Projects\\WordCount\\WordCount\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

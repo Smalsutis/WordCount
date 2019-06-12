@@ -7,17 +7,22 @@ namespace WordCount
 {
     class WordCounter
     {
-        List<CountLine> list;
+        private List<CountLine> list;
+        private string entry;
+        private string returnString;
 
-
-        public WordCounter(string[] entry)
+        public WordCounter(string entry)
         {
             this.list = new List<CountLine>();
+            this.entry = entry;
+        }
 
-            foreach (string word in entry)
+        internal string calculate()
+        {
+            foreach (string word in entry.Split())
             {
                 //Console.WriteLine(word);
-                if(list.Exists(line => line.Word.ToString() == word))
+                if (list.Exists(line => line.Word.ToString() == word))
                 {
                     this.list.Where(line => line.Word.ToString() == word).ToList().ForEach(line => line.Count++);
                 }
@@ -26,16 +31,14 @@ namespace WordCount
                     this.list.Add(new CountLine { Word = word, Count = 1 });
                 }
             }
-        }
 
-        internal void print()
-        {
             Console.Write("List:");
             foreach (CountLine line in list)
-            {
-                Console.Write(" " + line);
+             {
+                returnString = returnString + " " + line;
             };
-            Console.WriteLine();
+
+            return returnString;
         }
     }
 }

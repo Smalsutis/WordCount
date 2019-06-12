@@ -6,15 +6,18 @@ namespace WordCount
     {
         static void Main()
         {
-            string entry = Console.ReadLine();
-            WordCounter wordCounter = new WordCounter(entry.Split());
-            LegthCounter legthCounter = new LegthCounter(entry.Split());
-
-            wordCounter.print();
-            legthCounter.print();
+            result(Console.ReadLine());
 
             Console.ReadLine();
         }
 
+        static void result(string entry)
+        {
+            LengthCounter lengthCounter = new LengthCounter(entry);
+            WordCounter wordCounter = new WordCounter(entry);
+
+            Console.WriteLine("List:" + wordCounter.calculate());
+            Console.WriteLine("List:" + lengthCounter.calculate());
+        }
     }
 }

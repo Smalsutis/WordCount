@@ -9,3 +9,14 @@ C:\Users\Aruna\source\repos\WordCount\obj\Debug\netcoreapp2.2\WordCount.Assembly
 C:\Users\Aruna\source\repos\WordCount\obj\Debug\netcoreapp2.2\WordCount.AssemblyInfo.cs
 C:\Users\Aruna\source\repos\WordCount\obj\Debug\netcoreapp2.2\WordCount.dll
 C:\Users\Aruna\source\repos\WordCount\obj\Debug\netcoreapp2.2\WordCount.pdb
+C:\Users\Aruna\OneDrive\Desktop\Arūnėlis\Projects\WordCount\WordCount\bin\Debug\netcoreapp2.2\WordCount.deps.json
+C:\Users\Aruna\OneDrive\Desktop\Arūnėlis\Projects\WordCount\WordCount\bin\Debug\netcoreapp2.2\WordCount.runtimeconfig.json
+C:\Users\Aruna\OneDrive\Desktop\Arūnėlis\Projects\WordCount\WordCount\bin\Debug\netcoreapp2.2\WordCount.runtimeconfig.dev.json
+C:\Users\Aruna\OneDrive\Desktop\Arūnėlis\Projects\WordCount\WordCount\bin\Debug\netcoreapp2.2\WordCount.dll
+C:\Users\Aruna\OneDrive\Desktop\Arūnėlis\Projects\WordCount\WordCount\bin\Debug\netcoreapp2.2\WordCount.pdb
+C:\Users\Aruna\OneDrive\Desktop\Arūnėlis\Projects\WordCount\WordCount\obj\Debug\netcoreapp2.2\WordCount.csprojAssemblyReference.cache
+C:\Users\Aruna\OneDrive\Desktop\Arūnėlis\Projects\WordCount\WordCount\obj\Debug\netcoreapp2.2\WordCount.csproj.CoreCompileInputs.cache
+C:\Users\Aruna\OneDrive\Desktop\Arūnėlis\Projects\WordCount\WordCount\obj\Debug\netcoreapp2.2\WordCount.AssemblyInfoInputs.cache
+C:\Users\Aruna\OneDrive\Desktop\Arūnėlis\Projects\WordCount\WordCount\obj\Debug\netcoreapp2.2\WordCount.AssemblyInfo.cs
+C:\Users\Aruna\OneDrive\Desktop\Arūnėlis\Projects\WordCount\WordCount\obj\Debug\netcoreapp2.2\WordCount.dll
+C:\Users\Aruna\OneDrive\Desktop\Arūnėlis\Projects\WordCount\WordCount\obj\Debug\netcoreapp2.2\WordCount.pdb
